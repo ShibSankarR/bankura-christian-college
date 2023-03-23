@@ -1,0 +1,283 @@
+/******************************MEDIA QUERIES***********************/
+@media screen and (min-width: 2161px) and (max-width: 3840px) {
+
+	
+  
+  }
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1981px) and (max-width: 2160px) {
+
+
+  
+  }
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1650px) and (max-width: 1980px) {
+
+
+
+
+
+
+
+
+
+  }
+  
+
+
+
+@media (max-width: 1280px) {
+
+    .header .main-menu .navbar-nav li a {
+        padding: 20px 4px;
+    }
+    a.logo {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+
+
+}
+
+
+@media (max-width: 1099.98px) {
+
+    .desktop-hedaer {
+        display: none;
+    }
+    .mobile-header {
+        display: block;
+        padding: 10px 0;
+    }
+    .menu ul {
+        position: fixed;
+        top: 0;
+        z-index: 999;
+    }
+    a.menu-toggle {
+        float: right;
+        margin: 18px 0 0 0;
+    } 
+    .search-btn {
+        width: 100%;
+        font-size: 25px;
+        color: #ffbe00;
+        display: block;
+        padding: 15px;
+    }
+    .projectFactsWrap .item p {
+        color: #333;
+        font-size: 18px;
+        margin: 0;
+        padding: 10px;
+        min-height: 80px;
+    }
+    .projectFactsWrap .item i {
+        margin-bottom: 20px;
+    }
+    .Card-sec .card-body {
+        padding: 1rem 0;
+    }
+    .date {
+        width: 100%;
+    }
+    .event-item {
+        width: 100%;
+        padding: 36px 10px;
+    }
+    .blog-each a {
+        margin-bottom: 40px;
+        display: block;
+    }
+    section.footer-bottom {
+        padding: 20px;
+        background: #202020;
+        text-align: center;
+    }
+    .footer-contact {
+        margin-top: 0px;
+    }
+    ul.footer-menu-each {
+        margin-bottom: 20px;
+    }
+    .blog-each h3 {
+        font-size: 17px;
+    }
+    .blog-each p {
+        color: #fff;
+        font-size: 11px;
+        text-align: left;
+    }
+    ul.footer-menu-each li a {
+        font-size: 15px;
+    }
+    .footer-contact p {
+        color: #fff;
+        font-weight: 300;
+        word-break: break-all;
+    }
+    a.logo {
+        display: inline;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width: 896.98px) {
+    
+
+
+}
+@media (max-width: 812px) {
+    
+    .desktop-hedaer {
+        display: none;
+    }
+    .mobile-header {
+        display: block;
+        padding: 0px 0;
+    }
+    .menu ul {
+        position: fixed;
+        top: 0;
+        z-index: 999;
+    }
+    a.menu-toggle {
+        margin: 18px 0 0 0;
+        position: absolute;
+        right: 0;
+    }
+    .search-btn {
+        width: 100%;
+        font-size: 25px;
+        color: #ffbe00;
+        display: block;
+        padding: 15px;
+    }
+    .projectFactsWrap .item p {
+        color: #333;
+        font-size: 18px;
+        margin: 0;
+        padding: 10px;
+        min-height: 80px;
+    }
+    .projectFactsWrap .item i {
+        margin-bottom: 20px;
+    }
+    .Card-sec .card-body {
+        padding: 1rem;
+    }
+    .date {
+        width: 100%;
+    }
+    .event-item {
+        width: 100%;
+        padding: 36px 10px;
+    }
+    .blog-each a {
+        margin-bottom: 40px;
+        display: block;
+    }
+    section.footer-bottom {
+        padding: 20px;
+        background: #202020;
+        text-align: center;
+    }
+    .footer-contact {
+        margin-top: 30px;
+    }
+    ul.footer-menu-each {
+        margin-bottom: 20px;
+    }
+    .menu-box .navbar {
+        background: #fff;
+    }
+    .menu-box .navbar-toggler {
+        padding: 0.25rem 0.45rem;
+        font-size: 1.55rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid rgba(0,0,0,0.5);
+        border-radius: 0.25rem;
+        transition: box-shadow .15s ease-in-out;
+    }
+    .menu-box .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.0em;
+        height: 1.0em;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+    .menu-box .navbar-dark .navbar-nav .nav-link {
+        color: #000;
+    }
+    .menu-box .navbar-toggler-icon i {
+        color: #000;
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+
+}
+@media (max-width: 768px) {
+    
+
+}
+@media (max-width: 736px) { 
+
+
+
+}
+
+@media (max-width: 575.98px) {
+
+ 
+
+
+
+}
+@media (max-width: 480px) {
+  
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width: 375px) {
+    
+
+}
