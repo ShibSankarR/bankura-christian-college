@@ -6,18 +6,18 @@ jQuery(document).ready(function () {
 
     // Header Background Change
 
-    // jQuery(document).ready(function(){
-    //     jQuery(window).scroll(function () {
-    //     if(jQuery(document).scrollTop() > 50){
-    //         jQuery(".header").addClass('header-fix');
-    //     }
-    //     else{
-    //         jQuery(".header").removeClass('header-fix');
-    //         jQuery(".main-menu").removeClass('move');
-    //         jQuery(".brand") .css('display','none');
-    //     }
-    // });
-    // });
+    jQuery(document).ready(function(){
+        jQuery(window).scroll(function () {
+        if(jQuery(document).scrollTop() > 50){
+            jQuery(".header").addClass('header-fix');
+        }
+        else{
+            jQuery(".header").removeClass('header-fix');
+            jQuery(".main-menu").removeClass('move');
+            jQuery(".brand") .css('display','none');
+        }
+    });
+    });
 
 // Menu
 jQuery('.stellarnav').stellarNav({
@@ -33,7 +33,7 @@ jQuery('.stellarnav').stellarNav({
 
 $('.banner-slider').owlCarousel({
     loop:true,
-    nav: false,
+    nav: true,
     dots:true,
     autoplay:true,
     margin:10,
@@ -55,7 +55,7 @@ $('.banner-slider').owlCarousel({
 
 $('.banner-slider2').owlCarousel({
     loop:true,
-    nav: false,
+    nav: true,
     dots:false,
     autoplay:true,
     margin:10,

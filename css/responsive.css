@@ -30,6 +30,44 @@
 @media screen and (min-width: 1650px) and (max-width: 1980px) {
 
 
+    ul.card-listing li {
+        display: inline-block;
+        width: 24%;
+        height: auto;
+    }
+    .card-icon {
+        width: 40%;
+        text-align: center;
+        margin-right: 30px;
+    }
+    .card-content {
+        width: 100%;
+        margin-left: auto;
+        position: relative;
+        text-align: center;
+    }
+    ul.uper-con {
+        margin-right: 50px;
+    }
+    ul.uper-menu-ul {
+        margin-right: 40px;
+    }
+    .comon-btn {
+        padding: 25px 20px;
+    }
+    .uper-menu ul li a {
+        font-size: 16px;
+    }
+    .uperhead-btn {
+        margin-right: 24px;
+    }
+    .menu-box .stellarnav ul li a {
+        padding: 26px 9px;
+        color: #fff;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+
 
 
 
@@ -147,30 +185,9 @@
 
 
 
-@media (max-width: 896.98px) {
+@media  screen and (min-width: 812px) and (max-width: 896.98px) {
     
 
-
-}
-@media (max-width: 812px) {
-    
-    .desktop-hedaer {
-        display: none;
-    }
-    .mobile-header {
-        display: block;
-        padding: 0px 0;
-    }
-    .menu ul {
-        position: fixed;
-        top: 0;
-        z-index: 999;
-    }
-    a.menu-toggle {
-        margin: 18px 0 0 0;
-        position: absolute;
-        right: 0;
-    }
     .search-btn {
         width: 100%;
         font-size: 25px;
@@ -192,10 +209,10 @@
         padding: 1rem;
     }
     .date {
-        width: 100%;
+        width: 20%;
     }
     .event-item {
-        width: 100%;
+        width: 74%;
         padding: 36px 10px;
     }
     .blog-each a {
@@ -242,6 +259,157 @@
         font-size: 23px;
         font-weight: 600;
     }
+    ul.card-listing li {
+        display: inline-flex;
+        width: 100%;
+    }
+    .card-content {
+        width: 70%;
+        position: relative;
+        text-align: center;
+    }
+    .card-icon {
+        width: 30%;
+        text-align: center;
+        margin-right: 20px;
+    }
+    .card-listing {
+        width: 90%;
+    }
+    .banner2 .banner-slider2 .owl-nav {
+        margin-top: 10px;
+        position: absolute;
+        top: 20px ;
+        right: 0;
+        color: #fff;
+    }
+    ul.card-listing li {
+        display: inline-flex;
+        width: 49%;
+    }
+    .blog-each {
+        padding: 0 0px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 812px) {
+    
+    
+    .search-btn {
+        width: 100%;
+        font-size: 25px;
+        color: #ffbe00;
+        display: block;
+        padding: 15px;
+    }
+    .projectFactsWrap .item p {
+        color: #333;
+        font-size: 18px;
+        margin: 0;
+        padding: 10px;
+        min-height: 80px;
+    }
+    .projectFactsWrap .item i {
+        margin-bottom: 20px;
+    }
+    .Card-sec .card-body {
+        padding: 1rem;
+    }
+    .date {
+        width: 20%;
+    }
+    .event-item {
+        width: 74%;
+        padding: 36px 10px;
+    }
+    .blog-each a {
+        margin-bottom: 40px;
+        display: block;
+    }
+    section.footer-bottom {
+        padding: 20px;
+        background: #202020;
+        text-align: center;
+    }
+    .footer-contact {
+        margin-top: 30px;
+    }
+    ul.footer-menu-each {
+        margin-bottom: 20px;
+    }
+    .menu-box .navbar {
+        background: #fff;
+    }
+    .menu-box .navbar-toggler {
+        padding: 0.25rem 0.45rem;
+        font-size: 1.55rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid rgba(0,0,0,0.5);
+        border-radius: 0.25rem;
+        transition: box-shadow .15s ease-in-out;
+    }
+    .menu-box .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.0em;
+        height: 1.0em;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+    .menu-box .navbar-dark .navbar-nav .nav-link {
+        color: #000;
+    }
+    .menu-box .navbar-toggler-icon i {
+        color: #000;
+        font-size: 23px;
+        font-weight: 600;
+    }
+    ul.card-listing li {
+        display: inline-flex;
+        width: 100%;
+    }
+    .card-content {
+        width: 70%;
+        position: relative;
+        text-align: center;
+    }
+    .card-icon {
+        width: 30%;
+        text-align: center;
+        margin-right: 20px;
+    }
+    .card-listing {
+        width: 90%;
+    }
+    .banner2 .banner-slider2 .owl-nav {
+        margin-top: 10px;
+        position: absolute;
+        top: 20px ;
+        right: 0;
+        color: #fff;
+    }
+
+
+
+
+
 
 
 }
